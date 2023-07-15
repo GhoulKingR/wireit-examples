@@ -1,4 +1,4 @@
-# Express app in TypeScript
+# Express app in JavaScript
 
 This project is a simple app made with the [Express JS framework](https://expressjs.com/).
 
