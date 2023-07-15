@@ -1,0 +1,29 @@
+{
+  "name": "basic-ts-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "wireit"
+  },
+  "wireit": {
+    "build": {
+      "command": "tsc",
+      "output": [
+        "build"
+      ]
+    },
+    "start": {
+      "command": "node build/index.js",
+      "dependencies": [
+        "build"
+      ]
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "wireit": "^0.10.0"
+  }
+}
