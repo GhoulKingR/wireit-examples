@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "wireit",
     "start": "wireit"
   },
   "keywords": [],
