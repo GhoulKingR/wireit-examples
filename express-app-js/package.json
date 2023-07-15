@@ -1,0 +1,25 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "wireit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "wireit": "^0.10.0"
+  },
+  "wireit": {
+    "start": {
+      "command": "node index.js",
+      "service": true,
+      "files": ["*.js"]
+    }
+  }
+}
