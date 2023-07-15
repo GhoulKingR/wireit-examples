@@ -18,8 +18,7 @@
   "wireit": {
     "start": {
       "command": "node index.js",
-      "service": true,
-      "files": ["*.js"]
+      "service": true
     }
   }
 }
