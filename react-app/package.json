@@ -23,7 +23,8 @@
       "service": true
     },
     "build": {
-      "command": "react-scripts build"
+      "command": "react-scripts build",
+      "files": ["build/"]
     },
     "test": {
       "command": "react-scripts test",

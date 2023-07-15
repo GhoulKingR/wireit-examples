@@ -19,7 +19,8 @@
   },
   "wireit": {
     "build": {
-      "command": "tsc"
+      "command": "tsc",
+      "output": ["build/"]
     },
     "start": {
       "command": "node build/index.js",
