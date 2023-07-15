@@ -20,7 +20,10 @@
   "wireit": {
     "build": {
       "command": "tsc",
-      "output": ["build/"]
+      "output": [
+        "build/"
+      ],
+      "files": ["*.js"]
     },
     "start": {
       "command": "node build/index.js",
